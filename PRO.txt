@@ -3,3 +3,4 @@
 03 Logo Component
 04 Page Structure, Routes & Layout
 05 Error Page
+06 Register Page
