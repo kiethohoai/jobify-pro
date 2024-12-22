@@ -1,17 +1,18 @@
-// images
-import logo from '../assets/images/logo.svg';
-import main from '../assets/images/main.svg';
+import { Logo } from '../components';
 
 // styles ONLY
 import Wrapper from '../assets/wrappers/LandingPage';
+
+// images
+import main from '../assets/images/main.svg';
 
 // Landing
 export default function Landing() {
   return (
     <Wrapper>
-      {/* logo */}
+      {/* nav & logo */}
       <nav>
-        <img className="logo" src={logo} alt="jobify" />
+        <Logo />
       </nav>
 
       {/* content */}

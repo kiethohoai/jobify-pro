@@ -1,2 +1,3 @@
 01 Setup Project
 02 Landing Page
+03 Logo Component
