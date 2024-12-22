@@ -1,4 +1,10 @@
+import { Outlet } from 'react-router-dom';
+
 function DashboardLayout() {
-  return <div>DashboardLayout</div>;
+  return (
+    <div>
+      <Outlet />
+    </div>
+  );
 }
 export default DashboardLayout;
