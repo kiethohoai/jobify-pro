@@ -9,12 +9,14 @@ const Wrapper = styled.section`
     display: flex;
     align-items: center;
   }
+
   .page {
     min-height: calc(100vh - var(--nav-height));
     display: grid;
     align-items: center;
     margin-top: -3rem;
   }
+
   h1 {
     font-weight: 700;
     span {
@@ -22,21 +24,26 @@ const Wrapper = styled.section`
     }
     margin-bottom: 1.5rem;
   }
+
   p {
     line-height: 2;
     color: var(--text-secondary-color);
     margin-bottom: 1.5rem;
     max-width: 35em;
   }
+
   .register-link {
     margin-right: 1rem;
   }
+
   .main-img {
     display: none;
   }
+
   .btn {
     padding: 0.75rem 1rem;
   }
+
   @media (min-width: 992px) {
     .page {
       grid-template-columns: 1fr 400px;
@@ -47,4 +54,5 @@ const Wrapper = styled.section`
     }
   }
 `;
+
 export default Wrapper;
