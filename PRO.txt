@@ -4,3 +4,4 @@
 04 Page Structure, Routes & Layout
 05 Error Page
 06 Register Page
+07 Login Page

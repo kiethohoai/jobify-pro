@@ -12,8 +12,8 @@ const Register = () => {
         <FormRow type="text" name="name" labelText="Name" />
         <FormRow type="text" name="lastName" labelText="Last Name" />
         <FormRow type="text" name="location" labelText="Location" />
-        <FormRow type="text" name="email" labelText="Email" />
-        <FormRow type="text" name="password" labelText="Password" />
+        <FormRow type="email" name="email" labelText="Email" />
+        <FormRow type="password" name="password" labelText="Password" />
 
         <button type="submit" className="btn btn-block">
           Submit
